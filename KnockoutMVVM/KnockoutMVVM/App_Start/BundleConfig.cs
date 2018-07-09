@@ -31,6 +31,7 @@ namespace KnockoutMVVM
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                             "~/Content/style.css"
+                            
                       ));
         }
     }

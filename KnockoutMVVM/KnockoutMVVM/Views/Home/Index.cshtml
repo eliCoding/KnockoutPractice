@@ -49,7 +49,9 @@
                         <input data-bind="value: quantity, valueUpdate: 'afterkeydown'" class="integerInput" />
                     </div>
                     <div>
-                        <span class="caption">Ext. price:</span><span data-bind="text:extendedPrice"></span>
+                        @*<span class="caption">Ext. price:</span><span data-bind="text:extendedPrice"></span>*@
+                        <span class="caption">Ext. price:</span>
+                        <input data-bind="value: extendedPrice, valueUpdate: 'afterkeydown'" class="integerInput" />
                     </div>
 
                 </div>
