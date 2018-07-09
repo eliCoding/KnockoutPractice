@@ -1,11 +1,6 @@
 ﻿$(function () {
 
-    //var viewModel = {
 
-    //    firstName: ko.observable("john")
-    //};
-    //ko.applyBindings(viewModel);
-    ////
 
     var product = {
 
@@ -16,10 +11,6 @@
 
 
     };
-
-    //$("#guitaritemNumber").text(product.itemNumber);
-    //$("#guitarModle").text(product.model);
-    //$("#guitarSalesPrice").text(product.salePrice);
 
     ko.applyBindings(product);
 

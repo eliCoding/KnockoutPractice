@@ -4,14 +4,21 @@
 
 <div>
     <h2>with knockout</h2>
-    <span>item number:</span> <span data-bind="text:itemNumber"></span>
+    <span>Item number:</span> <span data-bind="text:itemNumber"></span>
     </br>
-    <span>Guitar mode:</span> <input data-bind="value:model" />
+    <span>Guitar model:</span> <input data-bind="value:model" />
     </br>
     <span>Sales price:</span><input data-bind="value:salesPrice" />
 
 
 
 
+</div>
+
+<div>
+    <h2>Underlying Source Object for Observable Object</h2>
+    <span>Item number</span><span data-bind="text:itemNumber"></span>
+    <br />
+    <span>Guitar model:</span><span data-bind="text: model"></span> <span>Sales price:</span><span data-bind="text:salesPrice"></span>
 </div>
 
