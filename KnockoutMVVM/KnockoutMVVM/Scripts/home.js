@@ -1,4 +1,4 @@
-﻿   $(function () {
+﻿   $(document).ready(function () {
             var photoPath = "/images/";
 
             // function helper 
@@ -52,7 +52,13 @@
                     this.product().salePrice(unitPrice);
                 },
                 owner: my.vm
-            });
+       });
+
+
+
+
 
             ko.applyBindings(my.vm);
-        });
+});
+
+

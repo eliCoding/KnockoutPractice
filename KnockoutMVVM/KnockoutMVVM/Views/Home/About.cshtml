@@ -1,7 +1,40 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Observable array";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+
+
+
+
+
+<h2>@ViewBag.Title.</h2>
+
+<div id="main">
+    <div class="showroom">
+        <div>
+            <span data-bind="text:products().length"></span><span>Products</span>
+        </div>
+        <div>
+            <select multiple="multiple"
+                    data-bind="options:products, selectedOptions:selectedProducts , optionsText:'description'"></select>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
